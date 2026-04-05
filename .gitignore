@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+
+# Local data / models / outputs — keep these OUT of git
+*.pt
+*.pth
+*.onnx
+*.npz
+*.npy
+*.pkl
+models/
+outputs/
+checkpoints/
+lightning_logs/
+wandb/
+
+# Colab local paths (only meaningful inside the Colab VM)
+/content/
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
+*.swp
